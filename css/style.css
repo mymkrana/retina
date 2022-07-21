@@ -948,7 +948,9 @@ div#four ul {
 ul.nav.nav-tabs {
   display: block;
   border: none;
-  margin-right: 139px;
+  padding-right: 135px;
+  border-right: solid #e9e9e9;
+  margin-right: 35px;
 }
 table {
   width: 800px;
@@ -1012,4 +1014,16 @@ p.stock.in-stock {
 }
 .share-social a:hover {
   color: #ef3f09;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  border: none;
+  font-weight: bold;
+}
+li.nav-item a {
+  color: #495057;
+  font-weight: bold;
+  padding: 18px 0;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  border: none;
 }
