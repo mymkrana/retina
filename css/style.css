@@ -677,6 +677,7 @@ div#menu-section {
 #menu-section ul {
   list-style: none;
   display: flex;
+  margin: 0;
 }
 #menu-section li {
   padding: 0px 35px;
