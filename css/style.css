@@ -436,32 +436,24 @@ Cart  stylling
 Product section stylling
 /////////////////////// */
 
-.item {
-  padding: 0 3rem;
-  max-width: 134rem;
-  margin: auto;
-  display: grid;
-  grid-template-columns: 0.8fr 1fr;
-  gap: 10rem;
-}
+
 
 /* Left img container stylling */
 .img-main {
-  max-width: 100%;
+  max-width: 80%;
   border-radius: 5%;
   cursor: pointer;
   margin-bottom: 3.5rem;
+}
+section.img {
+  display: flex;
 }
 
 .img-main__btn {
   display: none;
 }
 
-.img-btns {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
-}
+
 
 .img-btn {
   display: block;
@@ -510,10 +502,9 @@ Product section stylling
 
 /*Right item details stylling */
 .price {
-  margin-top: 3.5rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+ 
 }
 span.price-amount, .low-pay {
   font-size: 26px;
@@ -529,7 +520,7 @@ span.price-amount, .low-pay {
 }
 
 .price-main__heading {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 .product_meta, .detail-container{
@@ -589,6 +580,7 @@ span.price-amount, .low-pay {
   display: flex;
   gap: 2.5rem;
   align-items: center;
+  margin-top: 25px;
 }
 .low-price {
   display: grid;
@@ -950,6 +942,9 @@ div#first ul{
 .second-tab {
   display: flex;
 }
+div#four ul {
+  list-style: none;
+}
 ul.nav.nav-tabs {
   display: block;
   border: none;
@@ -964,4 +959,20 @@ table th, table td {
   text-align: left;
   vertical-align: top;
   border-bottom: 1px solid #e9e9e9;
+}
+.youtube-video {
+  text-align-last: center;
+}
+.review h2 {
+  text-align: left;
+  margin-top: 2px;
+  margin-bottom: 15px;
+}
+form#commentform p {
+  display: grid;
+}
+span.detail-content a {
+  color: #ababab;
+  padding-right: 4px;
+  text-decoration: none;
 }
