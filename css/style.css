@@ -926,7 +926,9 @@ JavaScript Triggered Classes
 
 
 
-
+.key-features ul {
+  list-style: none;
+}
 .section-content h2 {
   text-align: center;
   font-size: 28px;
