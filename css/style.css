@@ -520,8 +520,8 @@ span.price-amount, .low-pay {
 }
 
 .price-main__heading {
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 26px;
+  font-weight: 600;
 }
 .product_meta, .detail-container{
   display: -webkit-box;
@@ -975,4 +975,41 @@ span.detail-content a {
   color: #ababab;
   padding-right: 4px;
   text-decoration: none;
+}
+span.detail-content a:hover {
+  color: #ef3f09;
+}
+.key-features h2 {
+  font-size: 18px;
+}
+p.stock.in-stock {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 6px 12px;
+  border-color: #eaeaea;
+}
+.free-shiping {
+  padding: 0 12px;
+}
+.share-social {
+  border-bottom: 1px solid;
+  padding-bottom: 6px;
+  border-color: #eaeaea;
+}
+.free-shiping p {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.stok p {
+  margin-bottom: 6px;
+}
+.share-social i {
+  padding: 12px;
+  font-size: 17px;
+}
+.share-social a {
+  color: black;
+}
+.share-social a:hover {
+  color: #ef3f09;
 }
